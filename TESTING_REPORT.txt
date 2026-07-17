@@ -1,0 +1,40 @@
+OWL INSTRUMENTS TESTING REPORT
+
+LOGIN
+✓ Valid Login
+✓ Invalid Login
+✓ Logout
+
+REGISTRATION
+✓ User Registration
+✓ Email Validation
+
+ADMIN
+✓ Add Product
+✓ Update Product
+✓ Modify Users
+
+STORE
+✓ View Products
+✓ Add To Cart
+
+CART
+✓ Update Cart
+✓ Remove Product
+
+CHECKOUT
+✓ Checkout Process
+
+PAYMENT
+✓ Payment Page Working
+
+REPORTS
+✓ Inventory Report
+✓ Audit Log Report
+
+ABOUT PAGE
+✓ Company Information
+✓ Group Member Information
+
+RESULT:
+SYSTEM PASSED TESTING

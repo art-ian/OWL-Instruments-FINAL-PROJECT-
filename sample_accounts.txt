@@ -1,0 +1,36 @@
+
+OWL MUSICAL INSTRUMENTS
+Sample Test Accounts
+
+=================================
+BUYER ACCOUNT
+=================================
+
+Email: test2@gmail.com
+Password: test1234
+
+=================================
+ADMIN ACCOUNT
+=================================
+
+Username: superadmin
+Password: password
+
+=================================
+ADMIN ACCOUNT 2
+=================================
+
+Username: ADMIN1
+Password: admin1234
+
+=================================
+NOTES
+=================================
+
+Buyer accounts require email verification before login.
+
+Admin accounts can access:
+- Dashboard
+- Inventory Management
+- Reports
+- Audit Logs
