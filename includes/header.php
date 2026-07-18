@@ -11,9 +11,10 @@ $activePage = $activePage ?? '';
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/style.css">
+<link rel="stylesheet" href="<?= BASE_URL ?>assets/css/cart.css">
+<link rel="stylesheet" href="<?= BASE_URL ?>assets/css/store.css">
 </head>
 <body>
-
 <header class="site-header">
   <div class="container navbar">
     <a href="<?= BASE_URL ?>index.php" class="brand">
@@ -23,15 +24,12 @@ $activePage = $activePage ?? '';
         <span class="site-name">Musical Instruments</span>
       </div>
     </a>
-
     <button class="mobile-toggle" id="navToggle" aria-label="Toggle navigation">&#9776;</button>
-
     <nav class="nav-links" id="navLinks">
       <a href="<?= BASE_URL ?>index.php" class="<?= $activePage === 'home' ? 'active' : '' ?>">Home</a>
       <a href="<?= BASE_URL ?>store.php" class="<?= $activePage === 'store' ? 'active' : '' ?>">Store</a>
       <a href="<?= BASE_URL ?>cart.php" class="<?= $activePage === 'cart' ? 'active' : '' ?>">Cart</a>
       <a href="<?= BASE_URL ?>about.php" class="<?= $activePage === 'about' ? 'active' : '' ?>">About</a>
-
       <?php if (isLoggedIn()): ?>
         <?php if (currentRole() === 'admin'): ?>
           <a href="<?= BASE_URL ?>admin/dashboard.php" class="<?= $activePage === 'admin' ? 'active' : '' ?>">Admin</a>
@@ -44,6 +42,5 @@ $activePage = $activePage ?? '';
     </nav>
   </div>
 </header>
-
 <main>
   <div class="container">
